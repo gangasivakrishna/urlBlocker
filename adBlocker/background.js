@@ -5,7 +5,7 @@ chrome.webRequest.onBeforeRequest.addListener(
     },
     {urls: 
       ["*://*.doubleclick.net/*",
-      "*://*.doubleverify.*/*",
+      "*://*.doubleverify.com/*",
       "*://*.googleadservices.com/*",
       "*://*.googlesyndication.com/*",
       "*://*.moat.com/*",
@@ -14,7 +14,8 @@ chrome.webRequest.onBeforeRequest.addListener(
       "*://*.zmedia.com/*",
       "*://*.zv1.november-lax.com/*",
       "*://*.ero-advertising.com/*",
-      "*://*.appier.net/*"]
+      "*://*.appier.net/*",
+      "*://*.linkedin.com/*"]
     },
     ["blocking"]
   );
